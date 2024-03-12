@@ -1,0 +1,8 @@
+crypt
+typing; python_version < "3.5"
+streamlit
+Pillow
+scikit-image
+opencv-python-headless  # or opencv-python, depending on your GUI needs
+numpy
+argparse; python_version < "3.2"
