@@ -40,3 +40,24 @@ Image Colorization: The application converts the uploaded image to LAB format, a
 Displaying Results: The application displays the original, LAB converted, component-adjusted, and final colorized images.
 
 
+# Advanced Usage: Programmatic Image Colorization
+For those interested in the technical details or wishing to integrate the colorization process into their own Python scripts, here is a basic example. This code demonstrates how to use OpenCV and a pre-trained model to colorize black and white images.
+
+```bash
+pip install opencv-python numpy
+```
+
+```bash
+python b2w.py
+```
+
+Remember to add your own image to the path in the b2w.py code
+
+```python
+# Load your image
+image = cv2.imread('./path/to/image')
+```
+
+## Disclaimer
+
+This script is a simple demonstration. For production use or more complex applications, additional error handling and optimizations may be required.
