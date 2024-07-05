@@ -25,7 +25,7 @@ pip install -r requirements.txt
 To run the application, execute the following command in the terminal:
 
 ```bash
-streamlit run <script_name>.py
+streamlit run frontend.py
 ```
 
 Once the application is running, navigate through the sidebar to access different features:
